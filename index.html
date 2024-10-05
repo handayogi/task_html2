@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Register Form</title>
+</head>
+<body>
+
+    <header>
+        <a href="https://github.com/handayogi">handayogi tambunan.</a>
+    </header>
+
+    <div class="container">
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Register</legend>
+                <table>
+                    <tr>
+                        <td><label for="username">Username</label></td>
+                        <td>:</td>
+                        <td>
+                            <input type="text" name="username" id="username" placeholder="Enter Username" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email</label></td>
+                        <td>:</td>
+                        <td>
+                            <input type="email" name="email" id="email" placeholder="Enter Email" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Password</label></td>
+                        <td>:</td>
+                        <td>
+                            <input type="password" name="password" id="password" placeholder="Enter Password" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="confirm-password">Confirm Password</label></td>
+                        <td>:</td>
+                        <td>
+                            <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm Password" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="tl">Tanggal Lahir</label></td>
+                        <td>:</td>
+                        <td>
+                            <input type="date" name="tl" id="tl" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="jk">Jenis Kelamin</label></td>
+                        <td>:</td>
+                        <td class="radio">
+                            <input type="radio" name="jenis-kelamin" id="jk" value="L" required>Laki-Laki
+                            <input type="radio" name="jenis-kelamin" id="jk" value="P" required>Perempuan
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="agama">Agama</label></td>
+                        <td>:</td>
+                        <td>
+                            <select name="agama" id="agama" required>
+                                <option value="">-- Pilih --</option>
+                                <option value="Islam">Islam</option>
+                                <option value="Kristen">Kristen</option>
+                                <option value="Katolik">Katolik</option>
+                                <option value="Hindu">Hindu</option>
+                                <option value="Budha">Budha</option>
+                                <option value="Konghucu">Konghucu</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="kota">Domisili</label></td>
+                        <td>:</td>
+                        <td>
+                            <select name="kota" id="kota" required>
+                                <option value="">-- Pilih --</option>
+                                <option value="Jakarta">Jakarta</option>
+                                <option value="Bandung">Bandung</option>
+                                <option value="Surabaya">Surabaya</option>
+                                <option value="Bali">Bali</option>
+                                <option value="Lampung">Lampung</option>
+                                <option value="Semarang">Semarang</option>
+                                <option value="Medan">Medan</option>
+                                <option value="Pekanbaru">Pekanbaru</option>
+                                <option value="Samarinda">Samarinda</option>
+                                <option value="Balikpapan">Balikpapan</option>
+                                <option value="Manado">Manado</option>
+                                <option value="Ternate">Ternate</option>
+                                <option value="Tual">Tual</option>
+                                <option value="Bontang">Bontang</option>
+                                <option value="Pangkalpinang">Pangkalpinang</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr class="btn">
+                        <td colspan="3"><input type="submit" value="Register"></td>
+                    </tr>
+                    <tr class="login">
+                        <td colspan="3">Sudah memiliki akun? <a href="#">Login</a></td>
+                    </tr>
+                    <tr class="detail">
+                        <td colspan="3"><a href="detail.html">Cek </a>detail informasi dummy pendaftar disini.</td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </div>
+    
+</body>
+</html>

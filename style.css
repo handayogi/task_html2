@@ -1,0 +1,140 @@
+/* Style for index.html */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #969fee;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #090909;
+}
+
+header a {
+    text-decoration: none;
+    color: #ebebeb;
+    font-size: 25px;
+    font-family: Poppins, sans-serif;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+header a:hover {
+    background-color: #2a2a2a;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Style untuk form */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style untuk fieldset */
+fieldset {
+    border: 1px solid #007BFF;
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #007BFF;
+    padding: 0 10px;
+    font-family: Poppins, sans-serif;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+.radio input {
+    width: 10%;
+}
+
+.btn input {
+    font-family: Poppins, sans-serif;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 1em;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn input:hover {
+    background-color: #0056b3;
+}
+
+.login {
+    text-align: center;
+    font-family: Poppins, sans-serif;
+}
+
+.detail {
+    text-align: center;
+    font-family: Poppins, sans-serif;
+}
+
+/* Style for detail.html */
+.box {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 2px solid #0d0d0d;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box h1, th {
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    color: #007BFF;
+}
+
+.box th {
+    text-align: left;
+}
+
+.box td {
+    padding: 10px 0;
+}
+
+h3 {
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    color: #007BFF;
+}
